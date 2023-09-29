@@ -20,3 +20,10 @@ class Cultist {
     }
 }
 
+
+const cultist_1 = new Cultist( "John", "Wick", 120 , "yes", " 123-456-7890", "Keanu@yahoo.com", "Likes to lool cool and bikes",);
+
+
+// flow
+
+console.log(cultist_1);
