@@ -17,13 +17,21 @@ class Cultist {
         this.phone = phone;
         this.email = email;
         this.additional_data = additional_data;
+        this.introduction = function(){
+            console.log(`Greetings, my name is ${first_name}`);
+        }
+    }
+
+    static new_cultist() {
+       return new Cultist("John", "Dow", 21 , "yes", " 123-456-7890", "cunstractive_cult@yahoo.com", "no info avaliable", )
+        
     }
 }
 
 
 const cultist_1 = new Cultist( "John", "Wick", 120 , "yes", " 123-456-7890", "Keanu@yahoo.com", "Likes to lool cool and bikes",);
-
+const cult_1_JSON = JSON.stringify(cultist_1);
 
 // flow
 
-console.log(cultist_1);
+console.log( cult_1_JSON);
